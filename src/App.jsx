@@ -4,7 +4,7 @@ import {
   HeartHandshake, MapPin, Route, Briefcase, 
   GraduationCap, ChevronDown, Star, Send, 
   Menu, X, Phone, Mail, ArrowRight, CheckCircle,
-  Navigation2, Clock, Shield
+  Navigation2, Clock, Shield, TrendingUp
 } from 'lucide-react';
 
 export default function App() {
@@ -259,8 +259,8 @@ export default function App() {
                     </div>
                     <h3 className="text-xl font-bold text-white mb-2">Drive & Earn on Your Terms</h3>
                     <p className="text-zinc-400 text-sm mb-8 px-4">Accept long-distance interstate trips and maximize your weekly earnings.</p>
-                    <button className="w-full bg-emerald-500 text-black font-extrabold py-4 rounded-xl hover:bg-emerald-400 transition-colors">
-                      Start Application
+                    <button disabled className="w-full bg-zinc-800 text-zinc-500 font-extrabold py-4 rounded-xl cursor-not-allowed transition-colors">
+                      Coming Soon
                     </button>
                   </div>
                 )}
